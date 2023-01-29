@@ -1,0 +1,160 @@
+*{ 
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+  
+
+
+body{
+    background-image: url(./donation.jpg);
+}
+::after{
+  background-color: black;
+  opacity: 0.9;
+}
+.btn_dark {
+  display: inline-block;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  padding: 25px 27px;
+  border-radius: 100px ;
+  font-size: 18px;
+  letter-spacing: 5px;
+  transition: all 0.4s;
+}
+.btn_dark:hover{
+  background-color: #fff;
+  color: crimson;
+}
+.navbar ul {
+  display: flex;
+  justify-content: left;
+  background-color:#000000;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: initial;
+  padding: 15px 20px;
+  font-size: 16px;
+  color: #ac982b;
+  letter-spacing: 1px;
+}
+.navbar p {
+  display: block;
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  font-size: 16px;
+  color: #ac982b;
+  letter-spacing: 1px;
+}
+.navbar li a:hover{
+  background-color: #fff;
+  color: crimson;
+}
+.hero_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+}
+.hero_section h1{
+  font-size: 70px;
+}
+.hero_section p{
+  font-size: 30px;
+  text-align: center;
+}
+.margin_top a{
+  justify-items: center;
+}
+.cards{
+  display: inline-flex;
+  justify-content: center;
+}
+.first{
+  width: 250px;
+  height: 130px;
+  float: left;
+  margin: 0px 10px;
+  padding: 15px;
+}
+div .first{
+  background: linear-gradient(to right, #003300 0%, #009900 100%);
+  transition: 1s;
+  border-style: ridge;
+}
+.first:hover{
+  transform: scale(1.3);
+ }
+ .first{
+  text-align: center;
+ }
+.second {
+    width: 250px;
+    height: 130px;
+    float: left;
+    margin: 0px 10px;
+    padding: 15px;
+}
+.second{
+  text-align: center;
+}
+div .second{
+  background: linear-gradient(to right, #ff9900 0%, #ffcc00 100%);
+  transition: 1s;
+  border-style: ridge;
+
+}
+.second:hover{
+  transform: scale(1.3);
+ }
+.third{
+  width: 250px;
+  height: 130px;
+  float: right;
+  margin: 0px 10px;
+  padding: 15px;
+}
+div .third{
+  background: linear-gradient(to right, #ff9900 0%, #ff6600 100%);
+  transition: 1s;
+  border-style: ridge;
+}
+.third{
+  text-align: center;
+}
+.third:hover{
+  transform: scale(1.3);
+ }
+.fourth{
+    width: 250px;
+    height: 130px;
+    float: right;
+    margin: 0px 10px;
+    padding: 15px;
+}
+.fourth{
+  text-align: center;
+}
+div .fourth{
+  background: linear-gradient(to right, #ff66cc 0%, #cc0099 100%);
+  transition: 1s;
+  border-style: ridge;
+}
+.fourth:hover{
+  transform: scale(1.3);
+ }
+ 
